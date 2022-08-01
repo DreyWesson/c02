@@ -6,11 +6,9 @@
 /*   By: doduwole <doduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/28 17:34:04 by doduwole          #+#    #+#             */
-/*   Updated: 2022/07/28 17:48:30 by doduwole         ###   ########.fr       */
+/*   Updated: 2022/08/01 12:58:02 by doduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
 
 int	ft_str_is_printable(char *str)
 {

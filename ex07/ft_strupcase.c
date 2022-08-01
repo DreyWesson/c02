@@ -6,12 +6,9 @@
 /*   By: doduwole <doduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/31 11:36:43 by doduwole          #+#    #+#             */
-/*   Updated: 2022/07/31 13:27:58 by doduwole         ###   ########.fr       */
+/*   Updated: 2022/08/01 12:58:12 by doduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-#include <stdio.h>
 
 char	*ft_strupcase(char *str)
 {

@@ -6,12 +6,9 @@
 /*   By: doduwole <doduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/08/01 07:38:48 by doduwole          #+#    #+#             */
-/*   Updated: 2022/08/01 08:14:35 by doduwole         ###   ########.fr       */
+/*   Updated: 2022/08/01 12:59:04 by doduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-#include <stdio.h>
 
 int	ft_is_next_cap(char tmp)
 {
@@ -32,7 +29,7 @@ int	ft_alpha(char tmp)
 	return (1);
 }
 
-int	ft_isnum(char tmp)
+int	ft_is_num(char tmp)
 {
 	if (tmp >= 48 && tmp <= 57)
 		return (0);
@@ -51,7 +48,7 @@ char	*ft_strcapitalize(char *str)
 		tmp = str[i];
 		if (ft_is_next_cap(tmp) == 0 || i == 0)
 			switch_case = 0;
-		if (ft_isnum(tmp) == 0)
+		if (ft_is_num(tmp) == 0)
 			switch_case = 1;
 		if (switch_case == 0 && ft_alpha(tmp) == 0)
 		{

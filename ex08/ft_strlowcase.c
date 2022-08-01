@@ -6,12 +6,9 @@
 /*   By: doduwole <doduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/31 12:14:32 by doduwole          #+#    #+#             */
-/*   Updated: 2022/07/31 13:26:03 by doduwole         ###   ########.fr       */
+/*   Updated: 2022/08/01 12:58:24 by doduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <unistd.h>
-#include <stdio.h>
 
 char	*ft_strlowcase(char *str)
 {
